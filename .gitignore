@@ -1,0 +1,36 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Python / Environments ---
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Data & Large Files ---
+# Ignore data folders as they are usually too large for Git
+data/
+output/
+*.csv
+*.json
+*.parquet
+*.zip
+*.gz
+*.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+.cursor/
+
+# --- Project Specific ---
+# Add any specific large model files or logs here
+*.log
+saved/
